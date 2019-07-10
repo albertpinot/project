@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello LivreController!{% endblock %}
+
+{% block body %}
+    {{ form_start(livreForm) }}
+        {{ form_row(livreForm.name) }}
+        {{ form_row(livreForm.autor) }}
+        {{ form_row(livreForm.description) }}
+
+        <button class="btn">Register</button>
+    {{ form_end(livreForm) }}
+{% endblock %}

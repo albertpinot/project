@@ -1,0 +1,243 @@
+*{
+	box-sizing: border-box;	
+	font-family: 'Baloo Bhai', cursive;
+}
+body{	
+	background-color:#121214;
+	width:100%;
+	margin:0;
+	padding: 0;
+	color:white;	
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+	color:white;
+	font-size:18px;
+}
+a:hover{
+    text-decoration:underline;
+	color:#0000FF;
+}
+.linkLog{
+	color:#0000FF;
+}
+
+.linkMenu{
+	font-size:28px;	
+}
+#header{ 
+	width: 100%;
+	height: 45px;
+	background-color: #121214;
+	opacity: 95%;
+	margin: auto;
+	z-index: 1;
+}
+
+.profil{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 20px;
+}
+.contentLinkProfil{
+	display:flex;
+	align-items: center;	
+}
+
+.profil img{
+	width:30px;
+}
+
+.profil span{
+	color: white;
+	font-size: 15px;
+    font-family: "aller";
+    z-index: 1;
+}
+.content{
+	min-height:90vh;
+}
+.container{
+	width: 100vw;
+	height: 95vh;
+	display: grid;
+	grid-template-columns: 20% 1fr; 
+}
+#menu{ 
+	height: 100%;
+	background-color: #222325;
+}
+
+.logo{ 
+	width: 75%;
+	height: 75%;
+	margin-top: 20px;  
+}
+
+hr{
+    width: 75%;
+    color: #0000FF;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    height: 3px;
+	border: 0;
+	background-color: #0000FF;
+}
+
+.email, .recherche, .password, .name, .style{ 
+	width: 75%;
+    height: 30px;
+    background-color:white;	    
+    border:none; 
+    color:grey;
+	border-radius:330px;
+	padding:20px;
+	margin-bottom:10px; 
+	margin-top:10px; 
+	font-size:16px;
+}
+.email, .password, .name, .style{ 
+	text-align:center;
+}
+.btEnvoyer{
+    display:none;
+}
+
+.itemFlex{
+	display:flex;
+	align-items: center;
+	margin: 25px;
+}
+.itemFlex span{
+	color: white;
+	font-size: 20px;
+    font-family: "aller";
+}
+.itemFlex img{
+	width: 15%;
+	height: 15%;
+	margin-right: 20px;
+	margin-left: 15px;
+}
+
+.itemFlex .plus{
+	width: 5%;
+	height: 5%;
+	margin-right: 20px;
+}
+
+.center{
+	width: 100%;
+	text-align: center;
+}
+.containerForm{
+	padding-top:50px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color:#0000FF;
+}
+.contentFormUp, .contentFormRegister, .contentFormLog, .containerFormForgot{
+	width: 36%;
+}
+.banierePub{
+	height: 120px;
+	background: #660000;	
+}
+
+.pub{
+	width: 100%;
+	height: 120px;	
+}
+
+#audio{ 
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	bottom: 0;
+	color:#0000FF;
+	border: 1px solid #0000FF;
+	border-radius: 30px;
+}
+.BtLog{
+	background-color:#0000FF;
+	border: none;
+	font-size:18px; 
+	border-radius: 10px;
+	padding: 2px 20px;
+	margin:20px 0;
+	color:white;
+}
+.BtLog:hover{
+	cursor:pointer;
+	text-decoration: underline;
+	color:#0000FF;
+	background-color:white;
+}
+.chekbox{
+	border:10px #0000FF solid;
+}
+.input-file{
+	display: none;
+}
+.margin_20{
+	margin-left:20px;
+}
+.content-chanson{
+	padding:20px; 
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.title-chanson{
+	padding:20px; 
+}
+.flex-column{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 25%;
+	margin-top:20px;
+	padding-bottom:20px; 
+	padding-right:10px; 
+	padding-left:10px;
+}
+.flex-column img{
+	width: 100%;
+}
+.flex-user{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width:80%;
+	margin-left:auto; 
+	margin-right:auto;
+	font-size:18px;	
+}
+.bar{
+	margin-right:10px;
+	padding-right:10px; 
+	border-right:3px #0000FF solid;
+}
+.number{
+	color:#0000FF;
+}
+.center-chanson{
+	text-align:center;
+}
+.up{
+	font-size: 18px;
+}
+.width{
+	width: 100%;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+.linkLog:hover{
+	color:white;
+}
