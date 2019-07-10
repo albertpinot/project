@@ -1,5 +1,3 @@
-project
-
 Différents projet effectuer en colaboration ou même seul.
 
 1 - Soundcloud en colaboration avec juliencolmont partie design et une partie intégration, le reste de cette partie et le développement sous laravel à été réalisé par moi-même
